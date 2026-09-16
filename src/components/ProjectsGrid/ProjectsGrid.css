@@ -1,0 +1,7 @@
+.projects-grid {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  gap:2%;
+  margin-top:3%;
+}
