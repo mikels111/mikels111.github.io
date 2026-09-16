@@ -15,11 +15,11 @@ function Home() {
   return (
     <main className="page">
       <section className="hero-section">
-        <h1 style={{ 'line-height': '1' }}>Hola, soy Mikel Seara</h1>
-        <h2 style={{ 'line-height': '1.2' }}>Desarrollador full stack. Este es mi espacio de proyectos.</h2>
+        <h1 >Hola, soy Mikel Seara</h1>
+        <h2 >Desarrollador full stack. Este es mi espacio de proyectos.</h2>
 
-        <p style={{ 'line-height': '1.5' }}>
-          Eexperiencia en .NET C#, React, JavaScript y SQL Server, especializado en el desarrollo de soluciones a medida que combinan aplicaciones web y de escritorio. Enfocado en construir software adaptado a las necesidades del negocio.
+        <p>
+          Experiencia en .NET C#, React, JavaScript y SQL Server, especializado en el desarrollo de soluciones a medida que combinan aplicaciones web y de escritorio. Enfocado en construir software adaptado a las necesidades del negocio.
         </p>
       </section>
 

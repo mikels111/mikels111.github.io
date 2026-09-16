@@ -6,8 +6,8 @@
   /* justify-content: center; */
   gap: 16px;
   padding: 48px 24px;
-  text-align: center;
   margin: 0 10%;
+  align-items: flex-start;
 }
 
 .hero-section {

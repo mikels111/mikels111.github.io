@@ -16,6 +16,12 @@ function ProjectDetail() {
       </Link>
       <h1>{project.name}</h1>
       <p>{project.description}</p>
+      <p>{project.longDescrition}</p>
+      <ul>
+        {project.features.map((feature, index) => (
+          <li key={index}>{feature}</li>
+        ))}
+      </ul>
     </main>
   )
 }
