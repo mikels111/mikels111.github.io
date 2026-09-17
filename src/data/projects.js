@@ -10,6 +10,12 @@ export const projects = [
       'Proyectos — crear, renombrar, eliminar y abrir proyectos en una vista de árbol.',
       'Editor de bloques — contenido estructurado con headers, checklists, código, tablas e imágenes (EditorJS).',
       'Verificación por email — códigos de verificación y emails transaccionales vía SMTP (Brevo).'
+    ],
+    images: [
+      '$/images/projects/gp/GP1.png',
+      '$/images/projects/gp/GP2.png',
+      '$/images/projects/gp/GP3.png'
     ]
+
   }
 ]

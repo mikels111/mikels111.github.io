@@ -1,10 +1,12 @@
 .project-card {
   flex: 1 1 20%;
   min-width: 0;
-  max-width: 200%;
+  max-width: 25%;
   box-sizing: border-box;
   margin-bottom: 32px;
   border-radius: 8px;
+  border: #00000017 1px solid;
+    padding: 11px;
 }
 
 .project-card:hover .project-card-name {

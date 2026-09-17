@@ -18,5 +18,13 @@ function spaFallback() {
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [react(), spaFallback()],
-  base: '/'
+  base: '/',
+  resolve: {
+    alias: {
+        '@': fileURLToPath(new URL('./src', import.meta.url)),
+        '$': fileURLToPath(new URL('./public', import.meta.url)),
+
+
+    }
+}
 })
