@@ -86,6 +86,32 @@
   margin-bottom: 16px;
 }
 
+.repo-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 14px;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  background: var(--bg-raised);
+  color: var(--text);
+  text-decoration: none;
+  font-size: 14px;
+  transition:
+    border-color 0.2s,
+    background-color 0.2s;
+    margin: 1% 0;
+}
+
+.repo-link:hover {
+  border-color: var(--text-muted);
+}
+
+.repo-link:focus-visible {
+  outline: 2px solid var(--text);
+  outline-offset: 2px;
+}
+
 .project-gallery {
   display: flex;
   flex-wrap: wrap;
