@@ -49,6 +49,48 @@
   white-space: nowrap;
 }
 
+.specialties-section {
+  align-self: flex-start;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 12px;
+  margin-top: 24px;
+  width: 100%;
+}
+
+.specialties {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  width: 100%;
+}
+
+.specialty-card {
+  flex: 1 1 220px;
+  max-width: 260px;
+  min-width: 0;
+  box-sizing: border-box;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  background: var(--bg-raised);
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 12px;
+}
+
+.specialty-card svg {
+  color: var(--text);
+}
+
+.specialty-card p {
+  color: var(--text);
+  font-size: 16px;
+  line-height: 1.4;
+}
+
 .page p {
   color: var(--text-muted);
 }
