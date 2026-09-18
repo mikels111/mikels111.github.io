@@ -9,6 +9,10 @@ const skills = [
   { name: 'CSS3', color: '#1572B6', text: '#ffffff' },
   { name: 'jQuery', color: '#0769AD', text: '#ffffff' },
   { name: 'Flujo de trabajo con IA', color: '#7C3AED', text: '#ffffff' },
+  { name: 'IIS Internet Information Services', color: '#6aed3a', text: '#0d1117' },
+  { name: 'Docker', color: '#3a7ced', text: '#ffffff' },
+
+
 ]
 
 const iconProps = {
