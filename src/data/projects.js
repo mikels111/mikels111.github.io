@@ -1,7 +1,7 @@
 export const projects = [
   {
     id: 'proyecto-1',
-    repository: 'github.com/mikels111/GestionProyectos',
+    repository: 'github.com/mikels111/NoteDocumentsApp',
     name: 'Gestión de proyectos y documentos colaborativos',
     description: 'Sistema de gestión de proyectos construido con React + ASP.NET Core 8 y MySQL.',
     longDescrition:'Permite a los usuarios crear espacios de trabajo, organizar proyectos en una vista de árbol y editar el contenido de cada proyecto mediante un editor de bloques rich-text (EditorJS), con guardado automático.',
